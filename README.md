@@ -86,18 +86,6 @@ bash
         Type 'RUN' exactly to execute commands
         Results saved in organized directories
 
-# Output Structure
-
-CIPHER organizes all output in a structured directory:
-
-recon_results/
-├── raw/           # Raw tool output
-│   ├── nmap_*.txt # Nmap scan results
-│   ├── amass.txt  # Subdomain enumeration
-│   ├── httpx.txt  # Web probing results
-│   └── *.txt      # Other tool outputs
-└── screenshots/   # Web application screenshots
-
 🎮 Usage Example
 
     Run the script:
