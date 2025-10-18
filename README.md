@@ -68,8 +68,8 @@ source ~/.bashrc
     Clone the Repository
     bash
 
-git clone https://github.com/Ahmed4Shawky/CIPHER---Automated-Reconnaissance-Framework-.git
-cd cipher
+git clone [https://github.com/Ahmed4Shawky/CIPHER---Automated-Reconnaissance-Framework-](https://github.com/Ahmed4Shawky/CIPHER---Automated-Reconnaissance-Framework-.git).git
+
 
 Make the Script Executable
 bash
