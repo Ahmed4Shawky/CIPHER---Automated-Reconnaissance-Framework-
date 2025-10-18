@@ -1,7 +1,6 @@
 # CIPHER---Automated-Reconnaissance-Framework-
 CIPHER is a comprehensive reconnaissance framework designed for ethical hackers and penetration testers. This interactive bash script streamlines the information gathering phase of security assessments by automating common reconnaissance tasks with an intuitive menu-driven interface.
 
-CIPHER is a comprehensive reconnaissance framework designed for ethical hackers and penetration testers. This interactive bash script streamlines the information gathering phase of security assessments by automating common reconnaissance tasks with an intuitive menu-driven interface.
 
 # Features
 
@@ -68,7 +67,8 @@ source ~/.bashrc
     Clone the Repository
     bash
 
-git clone [https://github.com/Ahmed4Shawky/CIPHER---Automated-Reconnaissance-Framework-.git][Download CIPHER Framework](https://github.com/Ahmed4Shawky/CIPHER---Automated-Reconnaissance-Framework-/archive/refs/heads/main.zip)
+git clone https://github.com/Ahmed4Shawky/CIPHER---Automated-Reconnaissance-Framework-.git
+[Download CIPHER Framework](https://github.com/Ahmed4Shawky/CIPHER---Automated-Reconnaissance-Framework-/archive/refs/heads/main.zip)
 
 
 Make the Script Executable
@@ -89,9 +89,8 @@ bash
 🎮 Usage Example
 
     Run the script:
-    bash
+    bash ./recon.sh
 
-./recon.sh
 
 Set your target:
 
@@ -111,15 +110,6 @@ View results:
 
 This tool is designed for educational purposes and authorized security testing only. Always obtain proper written permission before conducting any reconnaissance activities. Unauthorized scanning of networks and systems is illegal.
 
-# Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-📄 License
-
-This project is licensed under the MIT License - see the LICENSE [blocked] file for details.
-👤 Author
-
-Ahmed Shawky
 
     GitHub: https://github.com/Ahmed4Shawky
 
