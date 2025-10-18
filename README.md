@@ -44,24 +44,24 @@ Before using CIPHER, ensure you have the required tools installed:
 Core Tools
 bash
 
-# Install Nmap for port scanning
-sudo apt install nmap
+# Install all required tools at once
+sudo apt update && sudo apt install -y nmap seclists golang gobuster ffuf dirsearch nikto whatweb curl wget
 
-# Install wordlists for directory scanning
-sudo apt install seclists
+# Install Go tools quickly
 
-Additional Tools
-bash
+go install github.com/projectdiscovery/httpx/cmd/httpx@latest
 
-# Install Go if not already installed
-sudo apt install golang
+go install github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 
-# Install reconnaissance tools
-GO111MODULE=on go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
-GO111MODULE=on go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
-GO111MODULE=on go install -v github.com/projectdiscovery/dnsx/cmd/dnsx@latest
-GO111MODULE=on go install -v github.com/tomnomnom/httprobe@latest
-sudo apt install gobuster ffuf dirsearch
+go install github.com/projectdiscovery/dnsx/cmd/dnsx@latest
+
+go install github.com/tomnomnom/httprobe@latest
+
+go install github.com/projectdiscovery/naabu/v2/cmd/naabu@latest
+
+# Add Go bin to PATH (if not already there)
+echo 'export PATH=$PATH:~/go/bin' >> ~/.bashrc
+source ~/.bashrc
 
 # Quick Start
 
