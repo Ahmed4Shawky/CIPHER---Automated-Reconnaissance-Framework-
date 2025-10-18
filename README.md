@@ -68,7 +68,7 @@ source ~/.bashrc
     Clone the Repository
     bash
 
-git clone [https://github.com/Ahmed4Shawky/CIPHER---Automated-Reconnaissance-Framework-](https://github.com/Ahmed4Shawky/CIPHER---Automated-Reconnaissance-Framework-.git).git
+git clone [https://github.com/Ahmed4Shawky/CIPHER---Automated-Reconnaissance-Framework-.git]([Download CIPHER Framework](https://github.com/Ahmed4Shawky/CIPHER---Automated-Reconnaissance-Framework-/archive/refs/heads/main.zip)
 
 
 Make the Script Executable
