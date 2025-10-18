@@ -74,12 +74,12 @@ cd cipher
 Make the Script Executable
 bash
 
-chmod +x cipher.sh
+chmod +x recon.sh
 
 Run CIPHER
 bash
 
-    ./cipher.sh
+    ./recon.sh
 
     Follow the Interactive Menu
         Press numbers to navigate menus
@@ -103,7 +103,7 @@ recon_results/
     Run the script:
     bash
 
-./cipher.sh
+./recon.sh
 
 Set your target:
 
